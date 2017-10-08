@@ -183,44 +183,20 @@
 			<artifactId>webjars-locator</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.webjars.bower</groupId>
-			<artifactId>angular</artifactId>
+			<groupId>org.webjars.npm</groupId>
+			<artifactId>github-com-vuejs-vue</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.webjars.bower</groupId>
-			<artifactId>angular-cookies</artifactId>
+			<groupId>org.webjars.npm</groupId>
+			<artifactId>github-com-vuetifyjs-vuetify</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.webjars.bower</groupId>
-			<artifactId>angular-route</artifactId>
+			<groupId>org.webjars.npm</groupId>
+			<artifactId>material-design-icons</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.webjars.bower</groupId>
-			<artifactId>bootstrap</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.webjars.bower</groupId>
-			<artifactId>angular-bootstrap</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.webjars.bower</groupId>
-			<artifactId>ngInfiniteScroll</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.webjars.bower</groupId>
-			<artifactId>ng-tags-input</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.webjars.bower</groupId>
-			<artifactId>d3</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.webjars.bower</groupId>
-			<artifactId>nvd3</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.webjars.bower</groupId>
-			<artifactId>angular-nvd3</artifactId>
+			<groupId>org.webjars.npm</groupId>
+			<artifactId>roboto-fontface</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>

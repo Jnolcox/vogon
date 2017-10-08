@@ -7,10 +7,10 @@
 <html>
 	<head>
 		<title><fmt:message key="VOGON_PAGE_TITLE"/></title>
+        <!--
 		<link rel="stylesheet" type="text/css" href="webjars/bootstrap/dist/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="webjars/ng-tags-input/ng-tags-input.min.css">
 		<link rel="stylesheet" type="text/css" href="webjars/nvd3/build/nv.d3.min.css">
-		<!--<link rel="stylesheet" type="text/css" href="webjars/bootstrap/bootstrap-theme.min.css">-->
 		<script type="text/javascript" src="webjars/jquery/dist/jquery.min.js"></script>
 		<script type="text/javascript" src="webjars/angular/angular.min.js"></script>
 		<script type="text/javascript" src="webjars/angular-cookies/angular-cookies.min.js"></script>
@@ -38,10 +38,15 @@
 		<script type="text/javascript" src="script/fragments/transactions.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/tags-bootstrap.css">
+		-->
 		<link rel="icon" type="image/png" href="images/vogon-favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 	</head>
-	<body ng-app="vogon">
+	<body>
+	    <div id="toolbar">
+	        {{ message }}
+	    </div>
+	    <!--
 		<div ng-controller="NotificationController">
 			<div class="navbar-fixed-top">
 				<div class="alert alert-warning" ng-show="alertService.isLoading"><span class="glyphicon glyphicon-refresh" aria-hidden="true"></span> <fmt:message key="LOADING_ALERT"/></div>
@@ -51,7 +56,7 @@
 		<div ng-controller="UserController">
 			<nav class="navbar navbar-default" ng-show="authorizationService.authorized">
 				<div class="container-fluid">
-					<!-- Brand and toggle get grouped for better mobile display -->
+					<!-- Brand and toggle get grouped for better mobile display -- >
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarMain" aria-expanded="false">
 							<span class="sr-only"><fmt:message key="TOGGLE_NAVIGATION"/></span>
@@ -130,5 +135,12 @@
 				<div ng-view></div>
 			</div>
 		</div>
+		-->
 	</body>
+	<script type="text/javascript" src="webjars/github-com-vuejs-vue/vue.min.js"></script>
+	<script type="text/javascript" src="webjars/github-com-vuetifyjs-vuetify/vuetify.min.js"></script>
+	<script type="text/javascript" src="script/main.js"></script>
 </html>
+<link rel="stylesheet" type="text/css" href="webjars/github-com-vuetifyjs-vuetify/vuetify.min.css">
+<link rel="stylesheet" type="text/css" href="webjars/material-design-icons/iconfont/material-icons.css">
+<link rel="stylesheet" type="text/css" href="webjars/roboto-fontface/css/roboto/roboto-fontface.css">

@@ -1,3 +1,11 @@
+var vm = new Vue({
+    el: '#toolbar',
+    data: {
+        message: 'Hello Vue.js!'
+    }
+});
+
+/*
 var app = angular.module("vogon", ["ngCookies", "ngRoute", "ui.bootstrap", "nvd3", "infinite-scroll", "ngTagsInput"]);
 
 app.run(function ($templateRequest) {
@@ -92,3 +100,4 @@ app.controller("UserController", function ($scope, $location, AuthorizationServi
 app.controller("ContentController", function ($scope, AuthorizationService, TransactionsService, AccountsService, UserService) {
 	$scope.authorizationService = AuthorizationService;
 });
+*/
